@@ -688,6 +688,9 @@ transform: scale(0);
 		line-height: 28px;
 		margin-bottom: 15px;
 	}
+	.rules {
+		background: linear-gradient(84deg, #232123 0%, #202020 28.87%, #010001 63.97%, #000 89.22%, #050203 100%) ;
+	}
 	.rules__inner {
 		background: none;
 	}
