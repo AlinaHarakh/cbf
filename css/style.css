@@ -547,6 +547,15 @@ transform: scale(0);
 	.submenu__link-nfl {
 		width: auto;
 	}
+	.contact__content {
+    max-width: 950px;
+	}
+	.contact__image-img {
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    display: inherit;
+	}
 }
 @media (max-width: 920px) {
 	.header__bottom {
@@ -641,9 +650,6 @@ transform: scale(0);
 	.rules__inner {
 		padding: 40px 0;
 	}
-	.contact__image-img {
-    height: 183px;
-	}
 } 
 @media (max-width: 670px) {
 	.submenu {
@@ -671,9 +677,6 @@ transform: scale(0);
 	}
 	.timeline__image-img {
     height: 210px;
-	}
-	.contact__image-img {
-    height: 131px;
 	}
 	.footer {
 		padding: 15px 0;
@@ -711,6 +714,9 @@ transform: scale(0);
 	.timeline__image-img {
     height: auto;
 	}
+	.contact__image-img {
+    width: 100%;
+	}
 } 
 @media (max-width: 450px) {
 	.header {
@@ -725,9 +731,7 @@ transform: scale(0);
 	}
 	.contact__info {
 		flex-basis: 55px;
-	}
-	.contact__image-img {
-    height: auto;
+		gap: 8px;
 	}
 	.header__contact {
 		display: none;
