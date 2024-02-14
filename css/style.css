@@ -598,9 +598,9 @@ body {
     max-width: 950px;
   }
   .contact__image-img {
-    width: 94%;
+    width: 100%;
     height: auto;
-    margin-left: auto;
+    margin-left: 0;
     display: inherit;
   }
 }
