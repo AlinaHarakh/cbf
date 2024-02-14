@@ -22,8 +22,8 @@ document.querySelector(".burger").addEventListener("click", function () {
   this.classList.toggle("active");
   document.querySelector(".menu").classList.toggle("open");
   document
-    .querySelector(".header__links")
-    .classList.toggle("header__links--open");
+    .querySelector(".header__contact")
+    .classList.toggle("header__contact--open");
 });
 
 // Close all submenus when clicking outside of them or submenu links
@@ -57,7 +57,7 @@ document.addEventListener("click", function (event) {
     burger.classList.remove("active");
     menu.classList.remove("open");
     document
-      .querySelector(".header__links")
-      .classList.remove("header__links--open");
+      .querySelector(".header__contact")
+      .classList.remove("header__contact--open");
   }
 });
